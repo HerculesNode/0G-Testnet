@@ -80,7 +80,7 @@ sed -i "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.00252aevmos\"/" $HOM
 ```
 
 ## 🟢 Servis dosyası oluşturalım
-```shell
+```bash
 sudo tee /etc/systemd/system/ogd.service > /dev/null <<EOF
 [Unit]
 Description=OG Node
