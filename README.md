@@ -173,12 +173,6 @@ echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk
 
 
 
-## 🟢 Aldığımız cüzdan adresini wallet bölümüne yazalım 
-```shell
-echo 'export WALLET_NAME="YUKARDA ALDIĞIN CÜZDANI BURAYA YAZ 0X OLAN"' >> ~/.bash_profile
-source $HOME/.bash_profile
-```
-
 
 ## 🟢 Token geldikten sonra validatör oluşturalım
 ```shell
