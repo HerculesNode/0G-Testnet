@@ -262,6 +262,21 @@ validatör güncelle
 evmosd tx staking edit-validator --website="<WEBSITE>" --details="<DESCRIPTION>" --moniker="<NEW_MONIKER>" --identity="<KEY BASE PREFIX>" --from=$WALLET_NAME --gas=500000 --gas-prices=99999aevmos -y
 ```
 
+Doğrulayıcınızın kaçırılan blok sayacını ve hapishane ayrıntılarını sorgulayın
+```bash
+evmosd q slashing signing-info $(evmosd tendermint show-validator)
+```
+
+Unjail kurtulma
+```bash
+evmosd tx slashing unjail --from $WALLET_NAME --gas=500000 --gas-prices=99999aevmos -y
+```
+
+Doğrulayıcınıza Delege edin
+```bash
+evmosd tx staking delegate $(evmosd keys show $WALLET_NAME --bech val -a)  <AMOUNT>aevmos --from $WALLET_NAME --gas=500000 --gas-prices=99999aevmos -y
+```
+
 Bakiye görüntüle
 ```bash
 evmosd q bank balances $WALLET_NAME
