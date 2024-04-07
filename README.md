@@ -177,7 +177,7 @@ echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk
 
 
 ## 🟢 Token geldikten sonra validatör oluşturalım
-```shell
+```bash
 evmosd tx staking create-validator \
   --amount=10000000000000000aevmos \
   --pubkey=$(evmosd tendermint show-validator) \
@@ -199,3 +199,58 @@ evmosd tx staking create-validator \
 Explorer kontrol edin : https://explorer.validatorvn.com/OG-Testnet
 
 
+
+## 🟢 yararlı komutlar
+
+Log kontrol
+```bash
+sudo journalctl -u ogd -f -o cat
+```
+
+syc kontrol
+```bash
+evmosd status | jq .SyncInfo
+```
+
+Nodeyi yeniden başlat
+```bash
+sudo systemctl restart ogd
+```
+
+Nodeyi durdur
+```bash
+sudo systemctl stop ogd
+```
+
+validatör güncelle
+```bash
+evmosd tx staking edit-validator --website="<WEBSITE>" --details="<DESCRIPTION>" --moniker="<NEW_MONIKER>" --identity="<KEY BASE PREFIX>" --from=$WALLET_NAME --gas=500000 --gas-prices=99999aevmos -y
+```
+
+Bakiye görüntüle
+```bash
+evmosd q bank balances $WALLET_NAME
+```
+
+Başka cüzdana token gönder
+```bash
+evmosd tx bank send $WALLET_NAME <TO_WALLET> <AMOUNT>aevmos --gas=500000 --gas-prices=99999aevmos -y
+```
+
+Nodeyi güncelle
+```bash
+cd 0g-evmos
+git fetch
+git checkout tags/<version>
+make install
+evmosd version
+sudo systemctl restart ogd && sudo journalctl -u ogd -f -o cat
+```
+
+Nodeyi sil
+```bash
+sudo systemctl stop ogd
+sudo systemctl disable ogd
+sudo rm /etc/systemd/system/ogd.service
+rm -rf $HOME/.evmosd $HOME/0g-evmos
+```
