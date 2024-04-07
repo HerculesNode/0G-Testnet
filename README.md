@@ -146,11 +146,15 @@ False çıktısı alın. Kuruluma devam edelim
 
 
 
-## 🟢 Validatör için cüzdan oluşturalım. size cüzdan adresi ve kelimeleri verecek onları kaydedin
+## 🟢 Validatör için cüzdan oluşturalım. Şifre isteyecek bir şifre belirleyin sonra size cüzdan adresi ve kelimeleri verecek onları kaydedin
 
 ```shell
 evmosd keys add $WALLET_NAME
 ```
+
+![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/4577b34a-42c8-4426-be8f-dc73feb60535)
+
+
 Şimdi cüzdanımızı dönüştürelim faucet için bu adresi kullanacağız
 ```shell
 echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk '{print $3}')"
