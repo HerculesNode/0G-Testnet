@@ -196,6 +196,11 @@ evmosd tx staking create-validator \
 ```
 
 
+## 🟢 Validatör oluşturduktan sonra aşağıdaki dosyayı kesinlikle bilgisayarınıza yedekleyin
+
+Dosya: `priv_validator_key.json `
+Dizin: `$HOME/.evmosd/config/`
+
 Explorer kontrol edin : https://explorer.validatorvn.com/OG-Testnet
 
 
