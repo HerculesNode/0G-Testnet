@@ -1,6 +1,13 @@
+![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/4b44e27c-d4aa-479f-8f01-42f92edfb36c)
+
+
+
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
+ * [OG Discord](https://discord.gg/0glabs)
+ * [Explorer](https://explorer.validatorvn.com/OG-Testnet)
+
 
 ## 🟢 Sistem özellikleri
 - Memory: 8 GB RAM
