@@ -198,7 +198,7 @@ Faucet token alın https://faucet.0g.ai/
 
 Faucet sonrası cüzdan adresinize token gelmişmi kontrol edin resimdeki gibi olacak
 ```shell
-echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk '{print $3}')"
+evmosd q bank balances $(evmosd keys show $WALLET_NAME -a) 
 ```
 
 ![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/bfbe1e02-0c02-4a39-a71c-a9d8109fcb46)
