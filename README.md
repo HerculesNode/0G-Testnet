@@ -118,10 +118,6 @@ wget https://rpc-zero-gravity-testnet.trusted-point.com/latest_snapshot.tar.lz4
 ```
 
 ```shell
-sudo systemctl stop ogd
-```
-
-```shell
 cp $HOME/.evmosd/data/priv_validator_state.json $HOME/.evmosd/priv_validator_state.json.backup
 ```
 
