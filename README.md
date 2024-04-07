@@ -184,6 +184,8 @@ evmosd keys add $WALLET_NAME
 
 
 ## 🟢 Şimdi cüzdanımızı dönüştürelim faucet için bu adresi kullanacağız
+
+Aşağıdaki kod size 0x başlayan bir cüzdan adresi verecek kaydedin. Bununla faucetten token alın
 ```shell
 echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk '{print $3}')"
 ```
