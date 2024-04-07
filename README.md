@@ -155,10 +155,12 @@ evmosd keys add $WALLET_NAME
 ![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/4577b34a-42c8-4426-be8f-dc73feb60535)
 
 
-Şimdi cüzdanımızı dönüştürelim faucet için bu adresi kullanacağız
+## 🟢 Şimdi cüzdanımızı dönüştürelim faucet için bu adresi kullanacağız
 ```shell
 echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk '{print $3}')"
 ```
+![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/ac7722cb-e990-473e-9241-139af78ae0da)
+
 
 
 Faucet token alın https://faucet.0g.ai/
