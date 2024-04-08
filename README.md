@@ -53,7 +53,7 @@ make install
 evmosd version
 ```
 
-## 🟢 Ayarları yapalım
+## 🟢 Ayarları yapalım  Değiştireceğiniz yerler:  My_node: istediğiniz ismi yazın  /  wallet : istediğiniz cüzdan ismini yazın 
 ```shell
 echo 'export MONIKER="My_Node"' >> ~/.bash_profile
 echo 'export CHAIN_ID="zgtendermint_9000-1"' >> ~/.bash_profile
