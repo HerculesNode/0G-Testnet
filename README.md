@@ -192,8 +192,15 @@ echo "0x$(evmosd debug addr $(evmosd keys show $WALLET_NAME -a) | grep hex | awk
 ![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/ac7722cb-e990-473e-9241-139af78ae0da)
 
 
+## 🟢 Private keyi çıkarma daha sonra bunu tilki cüzdanınıza aktarın. Çıkan soruya Y yazın
 
-Faucet token alın https://faucet.0g.ai/
+```shell
+evmosd keys unsafe-export-eth-key $WALLET_NAME
+```
+![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/a2d23ba6-4fb0-4bf4-a534-af0e62511814)
+
+
+## 🟢 Faucet token alın https://faucet.0g.ai/
 
 
 Faucet sonrası cüzdan adresinize token gelmişmi kontrol edin resimdeki gibi olacak
