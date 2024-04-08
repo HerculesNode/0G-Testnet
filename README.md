@@ -225,6 +225,11 @@ evmosd tx staking create-validator \
   -y
 ```
 
+## 🟢 Doğrulayıcınıza Delege edin ( balance komutuyla bakın çıkanı AMOUNT yazan yere yazın
+```bash
+evmosd tx staking delegate $(evmosd keys show $WALLET_NAME --bech val -a)  <AMOUNT>aevmos --from $WALLET_NAME --gas=500000 --gas-prices=99999aevmos -y
+```
+
 
 ## 🟢 Validatör oluşturduktan sonra aşağıdaki dosyayı kesinlikle bilgisayarınıza yedekleyin
 
