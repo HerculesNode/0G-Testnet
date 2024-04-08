@@ -24,6 +24,15 @@
 
 - Bunlar max gereksinim daha düşükte çalıştırabilir !
 
+## OTOMATİK TEK KOD İLE KURULUM İÇİN AŞAĞIDAKİ KODU GİRMENİZ YETERLİ. <BR> OTO SCRİPT HAZIRLAYAN [KEMEVO](https://github.com/kemevo) - MELİH ARKADAŞIMIZA TEŞEKKÜRLER.
+
+```bah
+wget -O ogoto.sh https://raw.githubusercontent.com/kemevo/OG-Tesnet/main/ogoto.sh && chmod +x ogoto.sh && ./ogoto.sh
+```
+
+
+## MANUEL KURULUM YAPMAK SİTEYENLER AŞAĞIDAKİ KODLAR İLE YAPABİLİR. 
+
 
 ## 🟢 Sistemi güncelleyelim
 ```shell
