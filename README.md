@@ -9,6 +9,12 @@
  * [Explorer](https://explorer.corenodehq.com/0G%20Testnet./staking)
 
 
+## 🟢 rol alma
+
+Discord Roles kanalına gidin ve rolleri alın
+![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/c2ddbff1-1989-4f63-8b20-cf3ebb368442)
+
+
 ## 🟢 Sistem özellikleri
 - 8 GB RAM
 - CPU: 4 cores
