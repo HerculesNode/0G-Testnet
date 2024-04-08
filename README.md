@@ -220,7 +220,7 @@ evmosd tx staking create-validator \
   --from=$WALLET_NAME \
   --identity="" \
   --website="" \
-  --details="0G to the moon!" \
+  --details="HerculesNode community" \
   --gas=500000 --gas-prices=99999aevmos \
   -y
 ```
