@@ -11,7 +11,7 @@
 
 ## 🟢 rol alma
 
-Discord Roles kanalına gidin ve rolleri alın
+- Discord Roles kanalına gidin ve rolleri alın
 ![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/c2ddbff1-1989-4f63-8b20-cf3ebb368442)
 
 
@@ -208,8 +208,7 @@ evmosd keys unsafe-export-eth-key $WALLET_NAME
 
 ## 🟢 Faucet token alın https://faucet.0g.ai/
 
-
-Faucet sonrası cüzdan adresinize token gelmişmi kontrol edin resimdeki gibi olacak
+- Faucet sonrası cüzdan adresinize token gelmişmi kontrol edin resimdeki gibi olacak
 ```shell
 evmosd q bank balances $(evmosd keys show $WALLET_NAME -a) 
 ```
