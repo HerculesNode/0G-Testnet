@@ -6,7 +6,7 @@
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [OG Discord](https://discord.gg/0glabs)
- * [Explorer](https://explorer.validatorvn.com/OG-Testnet)
+ * [Explorer](https://explorer.corenodehq.com/0G%20Testnet./staking)
 
 
 ## 🟢 Sistem özellikleri
@@ -236,7 +236,7 @@ evmosd tx staking delegate $(evmosd keys show $WALLET_NAME --bech val -a)  <AMOU
 Dosya: `priv_validator_key.json `
 Dizin: `$HOME/.evmosd/config/`
 
-Explorer kontrol edin : https://explorer.validatorvn.com/OG-Testnet
+Explorer kontrol edin :  * [Explorer](https://explorer.corenodehq.com/0G%20Testnet./staking)
 
 
 
