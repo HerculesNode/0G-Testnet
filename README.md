@@ -247,6 +247,17 @@ Explorer kontrol edin :  * [Explorer](https://explorer.corenodehq.com/0G%20Testn
 
 
 
+## 🟢 0g ağını ekleme ve dosya yükleme 
+
+Bu adrese gidin : https://scan-testnet.0g.ai/
+
+- Private key çıkardığınız cüzdanı bağlayın
+- Tool bölümüne gelin 
+- bir resim seçin yükleyin
+- Cüzdanınızdan onay verin
+
+
+
 ## 🟢 yararlı komutlar
 
 Log kontrol
