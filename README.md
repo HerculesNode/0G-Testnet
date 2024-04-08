@@ -24,7 +24,9 @@
 
 - Bunlar max gereksinim daha düşükte çalıştırabilir !
 
-## OTOMATİK TEK KOD İLE KURULUM İÇİN AŞAĞIDAKİ KODU GİRMENİZ YETERLİ. <BR> OTO SCRİPT HAZIRLAYAN [KEMEVO](https://github.com/kemevo) - MELİH ARKADAŞIMIZA TEŞEKKÜRLER.
+## Oto tek kurulum kodu
+
+Sadece aşağıdaki kodu kullanmanız yeterli. [KEMEVO](https://github.com/kemevo) - MELİH ARKADAŞIMIZA TEŞEKKÜRLER.
 
 ```bah
 wget -O ogoto.sh https://raw.githubusercontent.com/kemevo/OG-Tesnet/main/ogoto.sh && chmod +x ogoto.sh && ./ogoto.sh
