@@ -276,6 +276,28 @@ Bu adrese gidin : https://scan-testnet.0g.ai/
 - Cüzdanınızdan onay verin
 
 
+## 🟢 Node Güncelleme ( version yazan yere Node versiyonu yazacağız )
+
+Log kontrol
+```bash
+cd 0g-evmos
+```
+```bash
+git fetch
+```
+```bash
+git checkout tags/<version>
+```
+```bash
+make install
+```
+```bash
+evmosd version
+```
+```bash
+sudo systemctl restart ogd && sudo journalctl -u ogd -f -o cat
+```
+
 
 ## 🟢 yararlı komutlar
 
