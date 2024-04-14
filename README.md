@@ -196,8 +196,16 @@ False çıktısı alın. Kuruluma devam edelim
 
 ## 🟢 Validatör için cüzdan oluşturalım. Şifre isteyecek bir şifre belirleyin sonra size cüzdan adresi ve kelimeleri verecek onları kaydedin
 
+- Yeni cüzdan oluşturmak için
+
 ```shell
 evmosd keys add $WALLET_NAME
+```
+
+- Cüzdanınız varsa içe aktarmak için
+
+```shell
+evmosd keys add $WALLET_NAME --recover
 ```
 
 ![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/4577b34a-42c8-4426-be8f-dc73feb60535)
