@@ -147,10 +147,17 @@ EOF
 ```
 
 ## 🟢 Nodeyi çalıştırın
-```shell
-sudo systemctl daemon-reload && \
-sudo systemctl enable ogd && \
-sudo systemctl restart ogd && \
+```bash
+sudo systemctl daemon-reload
+```
+```bash
+sudo systemctl enable ogd
+
+```
+```bash
+sudo systemctl restart ogd
+```
+```bash
 sudo journalctl -u ogd -f -o cat
 ```
 
