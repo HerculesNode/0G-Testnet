@@ -245,7 +245,7 @@ evmosd tx staking create-validator \
   --min-self-delegation=1 \
   --from=$WALLET_NAME \
   --identity="" \
-  --website="" \
+  --website="https://twitter.com/HerculesNode" \
   --details="HerculesNode community" \
   --gas=500000 --gas-prices=99999aevmos \
   -y
@@ -300,6 +300,21 @@ sudo systemctl restart ogd && sudo journalctl -u ogd -f -o cat
 
 
 ## 🟢 yararlı komutlar
+
+
+Moniker ismini değiştirme ( İSMİNİ-YAZ BÖLÜMÜNÜ DEĞİŞTİRİN )
+```bash
+evmosd tx staking edit-validator \
+--new-moniker="İSMİNİ-YAZ" \
+--from=$WALLET_NAME \
+--details="HerculesNode community" \
+--chain-id=$CHAIN_ID \
+--gas=500000 \
+--gas-prices=99999aevmos \
+-y
+```
+
+
 
 Log kontrol
 ```bash
