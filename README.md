@@ -64,11 +64,21 @@ make install
 evmosd version
 ```
 
-## 🟢 Ayarları yapalım  Değiştireceğiniz yerler:  My_node: istediğiniz ismi yazın  /  wallet : istediğiniz cüzdan ismini yazın 
-```shell
-echo 'export MONIKER="My_Node"' >> ~/.bash_profile
+## 🟢 Ayarları yapalım  
+
+- Değiştireceğiniz yerler:  `NODE İSMİ`: istediğiniz ismi yazın  /  `WALLET İSMİ` : istediğiniz cüzdan ismini yazın 
+
+- Node isminizi yazın
+```bash
+echo 'export MONIKER="NODE-İSMİNİ-YAZ"' >> ~/.bash_profile
+```
+- Wallet isminizi yazın
+```bash
+echo 'export WALLET_NAME="WALLET-İSMİ-YAZ"' >> ~/.bash_profile
+```
+
+```bash
 echo 'export CHAIN_ID="zgtendermint_9000-1"' >> ~/.bash_profile
-echo 'export WALLET_NAME="wallet"' >> ~/.bash_profile
 echo 'export RPC_PORT="26657"' >> ~/.bash_profile
 source $HOME/.bash_profile
 ```
