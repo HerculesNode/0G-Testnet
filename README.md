@@ -179,7 +179,7 @@ sudo systemctl stop ogd
 ```
 
 ```shell
-wget https://rpc-zero-gravity-testnet.trusted-point.com/latest_snapshot.tar.lz4
+curl -L http://37.120.189.81/0g_testnet/0g_snap.tar.lz4 | tar -I lz4 -xf - -C $HOME/.evmosd
 ```
 
 ```shell
